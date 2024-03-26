@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite" parallel="tests" thread-count="4" verbose="4">
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ru.vladp.tests.PictureExistenceTest"/>
+            <class name="ru.vladp.tests.PictureStyleTest"/>
+            <class name="ru.vladp.tests.PictureFavoritesTest"/>
+            <class name="ru.vladp.tests.PictureSearchBarTest"/>
+            <class name="ru.vladp.tests.PictureCartPriceTest"/>
+        </classes>
+    </test>
+    <test name="FirefoxTest">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="ru.vladp.tests.PictureExistenceTest"/>
+            <class name="ru.vladp.tests.PictureStyleTest"/>
+            <class name="ru.vladp.tests.PictureFavoritesTest"/>
+            <class name="ru.vladp.tests.PictureSearchBarTest"/>
+            <class name="ru.vladp.tests.PictureCartPriceTest"/>
+        </classes>
+    </test>
+</suite>

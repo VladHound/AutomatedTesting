@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/vladp/pages/CartPage.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/vladp/pages/FavoritePage.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/vladp/pages/PicturePage.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/ru/vladp/tests/PictureCartPriceTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/ru/vladp/tests/PictureExistenceTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/ru/vladp/tests/PictureFavoritesTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/ru/vladp/tests/PictureSearchBarTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/ru/vladp/tests/PictureStyleTest.java" charset="UTF-8" />
+  </component>
+</project>
